@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>wikinumber</title>
+</head>
+<body>
+  <div>
+    <p>here: </p>
+  </div>
+  <div>
+    <p>here2: </p>
+  </div>
+  <div>
+    <%= simple_form_for @queries do |f| %>
+      <%= f.input_field :query1%>
+      <%= f.input _field:query2%>
+      <%= f.button :submit %>
+    <% end %>
+  </div>
+
+
+</body>
+</html>
